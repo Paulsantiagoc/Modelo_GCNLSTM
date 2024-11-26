@@ -21,7 +21,19 @@ El modelo se basa en dos componentes principales:
 3. **Modelo combinado (*GCN*+*LSTM*)**:
    - Integra ambos componentes para predecir la velocidad promedio en cada intersección.
    - Utiliza una ventana temporal de cuatro pasos.
-Esta tabla muestra los datos de las carreteras analizadas, incluyendo su identificación, nombre, latitud y longitud.
+
+## Datos
+Los datos utilizados provienen del **Departamento de Transporte de California** e incluyen:
+- Velocidad promedio, flujo y ocupación vehicular.
+- 30 intersecciones de la interestatal 5.
+- Resolución temporal de cinco minutos.
+- Una semana de datos (diciembre de 2023), divididos en:
+  - **Entrenamiento**: 80%.
+  - **Prueba**: 20%.
+
+### Tabla de intersecciones analizadas
+Esta tabla muestra los datos de las carreteras analizadas, incluyendo su identificación, nombre, latitud y longitud:
+
 | **ID**  | **Name**                | **Lat**      | **Long**       |
 |---------|-------------------------|--------------|----------------|
 | 715947  | S OF 710               | 34.015325    | -118.17127     |
@@ -55,45 +67,31 @@ Esta tabla muestra los datos de las carreteras analizadas, incluyendo su identif
 | 762398  | OSMOND                 | 33.876316    | -118.014605    |
 | 762347  | ARTESIA                | 33.875077    | -118.012367    |
 
-
-## Datos
-Los datos utilizados provienen del **Departamento de Transporte de California** e incluyen:
-- Velocidad promedio, flujo y ocupación vehicular.
-- 28 intersecciones de la interestatal 5.
-- Resolución temporal de cinco minutos.
-- Una semana de datos (diciembre de 2023), divididos en:
-  - **Entrenamiento**: 80%.
-  - **Prueba**: 20%.
-- La tabla de las intersecciones analizadas se muestra a cotninuación:
-
-
 ## Resultados
 - El modelo demuestra un buen desempeño al capturar patrones espaciales y temporales.
 - Supera métodos tradicionales de predicción de tráfico.
 - La eficacia depende de:
   - La calidad y cantidad de datos disponibles.
   - La capacidad computacional para manejar el modelo.
-- A continuación se muestran los resultados de 3 intersecciones
-![Modelo de arquitectura GCN + LSTM](Figura_8.png)
-![Modelo de arquitectura GCN + LSTM](Figura_9.png)
-![Modelo de arquitectura GCN + LSTM](Figura_10.png)
-![Modelo de arquitectura GCN + LSTM](Figura_11.png)
-![Modelo de arquitectura GCN + LSTM](Figura_12.png)
-![Modelo de arquitectura GCN + LSTM](Figura_13.png)
+
+### Resultados específicos por intersección
+- A continuación se muestran los resultados de 3 intersecciones:
+
+![Resultados de la intersección 1 para el set de Train](Figura_8.png)
+![Resultados de la intersección 1 para el set de Test](Figura_9.png)
+![Resultados de la intersección 2 para el set de Train](Figura_19.png)
+![Resultados de la intersección 2 para el set de Test](Figura_11.png)
+![Resultados de la intersección 3 para el set de Train](Figura_12.png)
+![Resultados de la intersección 3 para el set de Test](Figura_13.png)
+
 ### Limitaciones
 - Escalabilidad para redes viales más grandes.
 - Alto consumo computacional.
-
-
 
 ## Conclusiones
 El enfoque híbrido *GCN*+*LSTM* es una herramienta prometedora para la predicción de tráfico:
 - Integra dependencias espaciales y temporales de manera efectiva.
 - Mejora significativamente la precisión frente a modelos tradicionales.
 
-Este trabajo incluye:
-- Referencias a modelos previos.
-- Discusión sobre parámetros clave.
-- Visualización detallada de resultados.
+Los datos y el código fuente están disponibles en [este repositorio de GitHub](https://github.com/tu_usuario/tu_repositorio).
 
-Los datos y el código fuente están disponibles en un repositorio de GitHub para consulta adicional.
