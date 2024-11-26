@@ -21,6 +21,8 @@ El modelo se basa en dos componentes principales:
 3. **Modelo combinado (*GCN*+*LSTM*)**:
    - Integra ambos componentes para predecir la velocidad promedio en cada intersección.
    - Utiliza una ventana temporal de cuatro pasos.
+     
+![Arquitectura GCN + LSTM](Figura_7.jpg)
 
 ## Datos
 Los datos utilizados provienen del **Departamento de Transporte de California** e incluyen:
@@ -83,6 +85,27 @@ Esta tabla muestra los datos de las carreteras analizadas, incluyendo su identif
 ![Resultados de la intersección 2 para el set de Test](Figura_11.png)
 ![Resultados de la intersección 3 para el set de Train](Figura_12.png)
 ![Resultados de la intersección 3 para el set de Test](Figura_13.png)
+
+## Instrucciones de Uso
+Para reproducir este proyecto, sigue los pasos a continuación:
+
+1. **Entorno de prueba**:
+   - Este proyecto fue desarrollado y probado en **Google Colab**.
+
+2. **Archivos de datos**:
+   - Archivo original: `2000_sec_2023_12_listo.xls`.
+   - Archivo filtrado: `los_speed (12).csv`.
+
+3. **Pasos**:
+   - Clona el repositorio
+   - Sube ambos archivos a tu entorno de Google Colab.
+   - Asegúrate de que las bibliotecas necesarias estén instaladas (por ejemplo, TensorFlow, PyTorch, pandas, numpy, etc.).
+   - Ejecuta el código de procesamiento para preparar los datos.
+   - Entrena el modelo híbrido (*GCN*+*LSTM*).
+   - Evalúa los resultados utilizando los conjuntos de datos de prueba y entrenamiento.
+
+4. **Ejecutar el modelo**:
+   - El código fuente está disponible en [este repositorio de GitHub](https://github.com/tu_usuario/tu_repositorio).
 
 ### Limitaciones
 - Escalabilidad para redes viales más grandes.
