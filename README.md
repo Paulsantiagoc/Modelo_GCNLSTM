@@ -21,7 +21,7 @@ El modelo se basa en dos componentes principales:
 3. **Modelo combinado (*GCN*+*LSTM*)**:
    - Integra ambos componentes para predecir la velocidad promedio en cada intersección.
    - Utiliza una ventana temporal de cuatro pasos.
-![Modelo de arquitectura GCN + LSTM](Tabla de interseciones.jpg)
+![Modelo de arquitectura GCN + LSTM](Tabla de interseciones.png)
 ## Datos
 Los datos utilizados provienen del **Departamento de Transporte de California** e incluyen:
 - Velocidad promedio, flujo y ocupación vehicular.
