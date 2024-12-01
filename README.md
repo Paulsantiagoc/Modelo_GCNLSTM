@@ -79,12 +79,12 @@ Esta tabla muestra los datos de las carreteras analizadas, incluyendo su identif
 ### Resultados específicos por intersección
 - A continuación se muestran los resultados de 3 intersecciones:
 
-![Resultados de la intersección 1 para el set de Train](Figura_8.png)
-![Resultados de la intersección 1 para el set de Test](Figura_9.png) 
-![Resultados de la intersección 2 para el set de Train](Figura_10.png) 
-![Resultados de la intersección 2 para el set de Test](Figura_11.png)
-![Resultados de la intersección 3 para el set de Train](Figura_12.png) 
-![Resultados de la intersección 3 para el set de Test](Figura_13.png)
+![Resultados de la intersección 1 para el set de Train](Figura_8A.png)
+![Resultados de la intersección 1 para el set de Test](Figura_9A.png) 
+![Resultados de la intersección 2 para el set de Train](Figura_10A.png) 
+![Resultados de la intersección 2 para el set de Test](Figura_11A.png)
+![Resultados de la intersección 3 para el set de Train](Figura_12A.png) 
+![Resultados de la intersección 3 para el set de Test](Figura_13A.png)
 
 ## Instrucciones de Uso
 Para reproducir este proyecto, sigue los pasos a continuación:
