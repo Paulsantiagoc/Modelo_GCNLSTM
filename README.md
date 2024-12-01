@@ -80,10 +80,10 @@ Esta tabla muestra los datos de las carreteras analizadas, incluyendo su identif
 - A continuación se muestran los resultados de 3 intersecciones:
 
 ![Resultados de la intersección 1 para el set de Train](Figura_8.png)
-![Resultados de la intersección 1 para el set de Test](Figura_9.png)
-![Resultados de la intersección 2 para el set de Train](Figura_10.png)
+![Resultados de la intersección 1 para el set de Test](Figura_9.png) 
+![Resultados de la intersección 2 para el set de Train](Figura_10.png) 
 ![Resultados de la intersección 2 para el set de Test](Figura_11.png)
-![Resultados de la intersección 3 para el set de Train](Figura_12.png)
+![Resultados de la intersección 3 para el set de Train](Figura_12.png) 
 ![Resultados de la intersección 3 para el set de Test](Figura_13.png)
 
 ## Instrucciones de Uso
