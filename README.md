@@ -8,6 +8,8 @@ El tráfico urbano es una problemática creciente causada por la saturación via
 - **Dependencias espaciales**: Interacciones entre intersecciones viales.
 - **Dependencias temporales**: Patrones históricos del tráfico. 
 
+Además, el archivo `Poster Simposio.pdf ` presenta un resumen visual en formato de cartel para exponer con los aspectos clave del trabajo realizado. Este recurso complementa la comprensión del modelo y sus resultados.
+
 ## Metodología
 El modelo se basa en dos componentes principales:
 
