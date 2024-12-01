@@ -6,7 +6,7 @@ Desarrollar un modelo híbrido basado en redes neuronales (*GCN*+*LSTM*) para pr
 ## Introducción
 El tráfico urbano es una problemática creciente causada por la saturación vial, el aumento poblacional y las deficiencias en la infraestructura. Este proyecto propone un modelo para mejorar la gestión del tráfico mediante la integración de:
 - **Dependencias espaciales**: Interacciones entre intersecciones viales.
-- **Dependencias temporales**: Patrones históricos del tráfico.
+- **Dependencias temporales**: Patrones históricos del tráfico. 
 
 ## Metodología
 El modelo se basa en dos componentes principales:
